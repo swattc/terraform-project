@@ -9,7 +9,7 @@ terraform {
   backend "s3" {
     bucket = "terraform-swattc-bucket"
     key    = "terraform-swattc-bucket"
-    region = "us-east-1"
     profile = "terraform-user"
+    region = "us-east-1"    
   }
 }
